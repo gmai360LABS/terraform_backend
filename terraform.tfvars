@@ -1,0 +1,10 @@
+bucket_name = "gmai360labs-terraform-state"
+dynamodb_table_name = "gmai360labs_terraform_locks"
+dynamodb_hash_key = "LockID"
+block_public_acls = true
+block_public_policy = true
+ignore_public_acls = true
+restrict_public_buckets = true
+sse_algorithm = "AES256"
+versioning_status = "Enabled"
+billing_mode = "PAY_PER_REQUEST"
